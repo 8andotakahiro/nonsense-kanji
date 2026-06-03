@@ -54,6 +54,12 @@ nav {
 .grid-label { font-size: 9px; letter-spacing: .5em; color: var(--muted); text-transform: uppercase; margin-bottom: 40px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 2px; }
 
+@media (max-width: 600px) {
+  .hero { padding: 60px 24px 48px; }
+  .grid-section { padding: 48px 24px 64px; }
+  nav { padding: 0 24px; }
+}
+
 /* カード */
 .card {
   display: block; background: var(--white);
